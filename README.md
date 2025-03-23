@@ -24,22 +24,6 @@ This project is designed for calculating video features and average luminance fo
 pip install -r requirements.txt
 ```
 
-## Usage
-1. **Feature Calculation and Luminance Analysis**:
-    ```bash
-    python start_main.py --input /path/to/videos --output /path/to/results
-    ```
-
-2. **Check for Missing Files**:
-    ```bash
-    python check_266file.py --input /path/to/videos
-    ```
-
-3. **Convert Video Formats**:
-    ```bash
-    python transMP4toYUV.py --input /path/to/videos --output /path/to/yuv_files
-    ```
-
 ## Notes
 - Ensure that all video files are placed in the correct directory before running the scripts.
 - Feature results and luminance data will be saved to the specified output directory.
