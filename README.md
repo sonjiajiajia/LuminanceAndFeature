@@ -23,6 +23,16 @@ This project is designed for calculating video features and average luminance fo
 ```bash
 pip install -r requirements.txt
 ```
+## Usage
+
+-Feature Calculation and Luminance Analysis:
+Open start_main.py, modify the necessary parameters such as input and output paths, then run the script.
+
+-Check for Missing Files:
+Open check_266file.py, set the appropriate directory path, and run the script to check for missing video files.
+
+-Convert Video Formats:
+Modify the input and output paths in transMP4toYUV.py, then run the script to convert video formats.
 
 ## Notes
 - Ensure that all video files are placed in the correct directory before running the scripts.
