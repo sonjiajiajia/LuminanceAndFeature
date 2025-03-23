@@ -25,13 +25,13 @@ pip install -r requirements.txt
 ```
 ## Usage
 
--Feature Calculation and Luminance Analysis:
+- Feature Calculation and Luminance Analysis:
 Open start_main.py, modify the necessary parameters such as input and output paths, then run the script.
 
--Check for Missing Files:
+- Check for Missing Files:
 Open check_266file.py, set the appropriate directory path, and run the script to check for missing video files.
 
--Convert Video Formats:
+- Convert Video Formats:
 Modify the input and output paths in transMP4toYUV.py, then run the script to convert video formats.
 
 ## Notes
