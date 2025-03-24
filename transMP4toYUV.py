@@ -55,7 +55,7 @@ def parse_filename(filename):
         qp = int(match1.group("qp"))
     elif match2:
         video = match2.group("video")
-        resolution = 2160  # 默认分辨率为 2160p
+        resolution = 2160
         framerate = float(match2.group("framerate"))
         qp = int(match2.group("qp"))
     else:

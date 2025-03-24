@@ -8,9 +8,9 @@ from tqdm import tqdm
 import pandas as pd
 
 
-def get_yuv_files(folder_path):
+def get_files(folder_path):
     """
-    Get a list of paths for all MP4 files in a folder.
+    Get a list of paths for all files in a folder.
     """
     return [os.path.join(folder_path, file)
             for file in os.listdir(folder_path)
@@ -58,12 +58,12 @@ if __name__ == "__main__":
     module_feature = ['EVCA','VCA','SITI']
     resolutions = [(960, 540), (1280, 720), (1920, 1080), (3840,2160)]
 
-    yuv_files = get_yuv_files(oriVideo_path)
+    yuv_files = get_files(oriVideo_path)
     if not yuv_files:
-        print("cannot find mp4 video")
+        print("cannot find video")
 
     # for i in mp4_files:
-    for i in tqdm(yuv_files, desc="Processing MP4 files"):
+    for i in tqdm(yuv_files, desc="Processing video files"):
 
 
         category, video, resolution, framerate, qp = parse_filename(os.path.basename(i))
