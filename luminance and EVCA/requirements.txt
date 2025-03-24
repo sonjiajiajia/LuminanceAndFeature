@@ -1,9 +1,0 @@
-matplotlib==3.8.2
-numpy==2.2.4
-pandas==2.2.3
-pytorch_wavelets==1.3.0
-scipy==1.15.2
-torch==2.2.0
-torch_dct==0.1.6
-tqdm==4.67.1
-tqdm==4.66.5
